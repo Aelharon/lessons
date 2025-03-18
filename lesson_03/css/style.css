@@ -1,0 +1,46 @@
+
+/* @import url(reset.css); */
+
+h1{
+	color: blue;
+}
+	/* 
+	*{
+		color: rgb(182, 70, 154);
+	} */
+
+/* не працює з "redet.css" */
+.block-1 li {
+	color: red;
+}
+#item-1{
+	color: rgb(241, 67, 210);
+}
+/* перевірка за класом footer */
+[class*="ter"] {
+	color: rgb(220, 141, 31);
+	}
+div.text{
+	color: red;
+}
+h2{
+	color:rgb(151, 190, 60);
+}
+h3{
+	color: blueviolet;
+}
+.section-1 span{
+	color: red;
+}
+.section-3 .item-2{
+	color: palevioletred;
+}
+.sublist *{
+	color: green;
+}
+.item-3 > p{
+	color: blue;
+}
+.item-3 ~ p{
+	color: green;
+}
