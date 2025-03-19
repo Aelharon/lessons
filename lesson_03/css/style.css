@@ -1,5 +1,5 @@
 
-@import url(reset.css);
+/* @import url(reset.css); */
 
 h1{
 	color: blue;
@@ -44,3 +44,4 @@ h3{
 .item-3 ~ p{
 	color: green;
 }
+
