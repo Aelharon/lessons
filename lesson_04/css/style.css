@@ -1,0 +1,157 @@
+
+@import url(reset.css);
+@import url("https://fonts.googleapis.com/css?family=Roboto:regular,700,italic&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Lora:regular,700,italic&display=swap");
+@import url(fonts.css);
+
+
+body {
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+h2{
+	font-size: 35px;
+}
+
+.title {
+	font-size: 40px;
+	text-align: center;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-shadow: 3px 3px 5px #d9dc7a,-3px -3px 5px #7adccf;
+}
+.content {
+	font-size: 35px;
+	text-transform: capitalize;
+	text-decoration:underline;
+	text-decoration-style: wavy;
+	text-decoration-color: #7adccf;
+	line-height: 45px;
+}
+a{
+	color: green;
+	text-decoration: underline;
+	font-size: 18px;
+	line-height: 1.3;
+}
+.definition {
+	line-height: 1.25;
+}
+.definition span{
+	font-style: italic;
+}
+.story {
+	line-height: 1.25;
+}
+.story h2 {
+text-decoration: overline;
+text-decoration-color: #d9dc7a;
+text-decoration-thickness: 4px;
+}
+/* Є можливість відштовхуватися від классу,
+і напевно це буде ліпше, зрозумів далі */
+#story + P {
+color: red;
+letter-spacing: 2px;
+}
+#story+p+p+p{
+	font-style: oblique;
+	color: #514cae;
+}
+#story+p+p{
+color: #514cae;
+}
+#story+p+p span{
+	color: black;
+	text-decoration: underline;
+	text-decoration-style: dashed;
+}
+#story+p+p+p span{
+	color: black;
+	text-decoration: underline;
+	text-decoration-style: dashed;
+}
+#story+p+p+p span{
+	color: black;
+	text-decoration: underline;
+	text-decoration-style: dashed;
+}
+#story+p+p+p+p{
+word-spacing: 10px;
+color: #ae4c83;
+}
+#story+p+p+p+p+p{
+	font-style: oblique;
+	color: #abae4c;
+}
+
+.example {
+	font-style: italic;
+	line-height: 1.25;
+}
+.etymology {
+	font-family: Ponomar, sans-serif;
+	line-height: 1.25;
+}
+#Jokes-about-nationalities{
+	color: rgba(37, 53, 227, 0.5);
+}
+.nationalities>p+p{
+color: green;
+}
+.nationalities>p+p+p{
+	color: blueviolet;
+	}
+.nationalities>p+p+p+p{
+	color: yellowgreen;
+	}
+
+.politics {
+	line-height: 1.3;
+}
+#politics{
+	font-family: Lora, serif;
+	font-weight: 400;
+}
+.politics>p+p{
+color: #ae4c83;
+}
+.politics>p+p+p{
+color: #7adccf;
+}
+.politics>p+p+p+p{
+	color: #d7258d;
+	}
+.montserrat-italic{
+font-family: Montserrat,sans-serif;
+font-weight: 700;
+font-style: italic;
+}
+.examples {
+line-height: 1.3;
+}
+.examples>p {
+	color: rgb(128, 45, 0);
+}
+.examples>p+p {
+	color: blue;
+}
+h3{
+	font-size: 25px;
+	font-style: italic;
+}
+.footer{
+	text-transform: uppercase;
+}
+.section-2{
+	font-family: Poppins, sans-serif;
+	line-height: 1.5;
+}
+.font-medium{
+	font-weight: 500;
+	font-size: 20px;
+}
+.font-medium~p{
+	font-weight: 400;
+	font-size: 18px;
+	color: #808080;
+}
