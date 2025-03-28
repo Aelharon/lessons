@@ -206,9 +206,14 @@ body {
 .footer {
 	font-family: "Great Vibes", cursive;
 	font-size: 40px;
-	margin: 10px 0px;
+	padding: 20px 0px 20px 30px;
 }
 
+.link {
+	color: #ffa500;
+	text-decoration: underline;
+	text-decoration-color: red;
+}
 
 
 
