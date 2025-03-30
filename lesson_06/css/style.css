@@ -69,6 +69,9 @@
 
 .hydra {
 	background-color: #302C42;
+	background-image: url("../img/7.png"), url("../img/8.png");
+	background-repeat: no-repeat;
+	background-position: 70% 10%, 30% 60%;
 }
 
 .container-hydra {
