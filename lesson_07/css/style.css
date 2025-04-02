@@ -1,0 +1,745 @@
+@import url("reset.css");
+@import url("https://fonts.googleapis.com/css?family=Inter:regular,600,700&display=swap");
+
+.wrapper {}
+
+.header {
+	background-color: #8b8888;
+	color: #ffa500;
+	font-size: 50px;
+	text-align: center;
+	text-transform: uppercase;
+	padding: 20px 0;
+}
+
+.page {}
+
+/* !Блок 1 */
+
+.training {
+	background: radial-gradient(circle, rgba(2, 0, 36, 1) 0%, rgba(9, 60, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+	padding: 30px 0;
+}
+
+.container-training {
+	max-width: 1230px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+
+[class^="training-"]:not(:last-child) {
+	margin-block-end: 20px;
+}
+
+/* ?hover */
+
+.training-hover h2:hover {
+	color: #cd32b6;
+	text-shadow: -3px -3px 5px #ffffff;
+}
+
+.hover-title {
+	font-size: 30px;
+	color: #fff;
+	margin-bottom: 10px;
+}
+
+.hover-link {
+	width: 100px;
+	height: 30px;
+	background-color: #ffa500;
+	border-radius: 30px;
+	text-align: center;
+	line-height: 1.85;
+}
+
+.hover-link:not(:last-child) {
+	margin-right: 20px;
+}
+
+.link-hover-1:hover {
+	background-color: #a16c08;
+}
+
+.link-hover-2:hover {
+	box-shadow: inset 0px 0px 20px #ff0000;
+}
+
+.link-hover-3:hover {
+	text-shadow: 3px 5px 5px #f9f9f9;
+	color: #fff;
+	box-shadow: 0 0 10px #fff;
+
+}
+
+.link-hover-4:hover {
+	text-decoration: underline;
+	text-decoration-style: wavy;
+	text-decoration-color: red;
+}
+
+
+.link-hover-5:hover {
+	outline: 5px dashed rgb(0, 255, 8);
+}
+
+.link-hover-6 {
+	display: none;
+}
+
+.hover-in-hover {
+	display: inline-block;
+}
+
+.hover-in-hover:hover .link-hover-6 {
+	display: inline-block;
+}
+
+.link-hover-6:hover {
+	background-color: #9acd32;
+}
+
+/* ?activ */
+
+.training-active {}
+
+.active-title {
+	font-size: 30px;
+	color: #fff;
+	margin-bottom: 10px;
+}
+
+.active-link {
+	width: 100px;
+	height: 30px;
+	background-color: #00ff3c;
+	border-radius: 30px;
+	text-align: center;
+	line-height: 1.85;
+}
+
+.active-link:hover {
+	background-color: #107728;
+	color: #fff;
+}
+
+.active-link:not(:last-child) {
+	margin-right: 20px;
+}
+
+.link-active-1:active {
+	background-color: #1c1077;
+	color: #fff;
+}
+
+.link-active-2:active {
+	box-shadow: 0 0 10px #000;
+}
+
+.link-active-3:active {
+	color: #ffa500;
+	font-weight: 700;
+}
+
+.link-active-4:active {
+	outline: 4px double #b6189c;
+}
+
+.link-active-5:active {
+	text-transform: uppercase;
+}
+
+/* ?visited */
+
+.training-visited {}
+
+.visited-title {
+	font-size: 30px;
+	color: #fff;
+	margin-bottom: 10px;
+}
+
+.visited-link {
+	width: 100px;
+	height: 30px;
+	background-color: #c996b7;
+	border-radius: 30px;
+	text-align: center;
+	line-height: 1.85;
+}
+
+.visited-link:not(:last-child) {
+	margin-right: 20px;
+}
+
+.visited-link:hover {
+	background-color: #af769b;
+}
+
+.link-visited-1:visited {
+	color: #c34545;
+}
+
+.link-visited-2:visited {
+	color: #436be5;
+}
+
+.link-visited-3:visited {
+	background-color: #fff;
+}
+
+.link-visited-4:visited {
+	color: #81456c;
+}
+
+.link-visited-5:visited {
+	color: #0c5d27;
+}
+
+/* ?focus */
+
+.focus-title {
+	font-size: 30px;
+	color: #fff;
+	margin-bottom: 10px;
+}
+
+.focus-link {
+	width: 100px;
+	height: 30px;
+	background-color: #ddec8b;
+	border-radius: 30px;
+	text-align: center;
+	line-height: 1.85;
+}
+
+.focus-link:not(:last-child) {
+	margin-right: 20px;
+}
+
+.focus-link:hover {
+	background-color: #a1ab67;
+}
+
+.link-focus-1:focus {
+	outline: 4px solid red;
+}
+
+.link-focus-2:focus {
+	outline: 4px dotted #2200ff;
+}
+
+.link-focus-3:focus {
+	outline: 4px dashed #00ff15;
+}
+
+.link-focus-4:focus {
+	outline: 4px double #ff00c8;
+}
+
+.link-focus-5:focus {
+	outline: 2px solid #e6f23c;
+	box-shadow: 0 0 15px #e6f23c;
+}
+
+.link-focus-5:focus-visible {
+	outline: 2px solid #fff;
+	box-shadow: 0 0 15px #fff;
+}
+
+/* ?target */
+
+.target-title {
+	font-size: 30px;
+	color: #fff;
+	margin-bottom: 10px;
+}
+
+.target-link {
+	width: 100px;
+	height: 30px;
+	background-color: #becbe9;
+	border-radius: 30px;
+	text-align: center;
+	line-height: 1.85;
+}
+
+.target-link:not(:last-child) {
+	margin-right: 20px;
+}
+
+.target-link:hover {
+	background-color: #8b98b8;
+}
+
+.link-target-1 {}
+
+.link-target-2 {
+	visibility: hidden;
+}
+
+.link-target-2:target {
+	visibility: visible;
+}
+
+/* ?child */
+
+.training-child {
+	color: #fff;
+	background: radial-gradient(circle, rgba(2, 0, 36, 1) 0%, rgba(137, 123, 175, 1) 46%, rgba(74, 80, 128, 1) 100%);
+	border-radius: 30px;
+	padding: 20px 20px;
+}
+
+.training-child p:not(:last-child) {
+	margin-bottom: 10px;
+}
+
+.child-title {
+	font-size: 30px;
+	color: #fff;
+	margin-bottom: 10px;
+}
+
+.training-child h2:first-child {
+	color: #ffff00;
+}
+
+.training-child p:last-child {
+	color: #ffff00;
+}
+
+.training-child p:first-of-type {
+	background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);
+	color: #000;
+}
+
+.training-child p:last-of-type {
+	text-transform: capitalize;
+}
+
+.training-child p:nth-child(3) {
+	color: #00ff3c;
+}
+
+.training-child p:nth-child(3n+5) {
+	color: #e07fc1;
+}
+
+.training-child p:has(span) {
+	color: #ff0000;
+}
+
+/* ?before-after */
+
+.training-before-after {}
+
+.training-title {
+	font-size: 30px;
+	color: #fff;
+	margin-bottom: 10px;
+}
+
+.list-training {
+	color: #fff;
+	font-size: 20px;
+	line-height: 1.5;
+	margin-bottom: 20px;
+}
+
+.list-training li:not(:last-child) {
+	margin-bottom: 10px;
+}
+
+
+.list-training-1::before {
+	content: "";
+	background: url("../img/Frame.svg") 0 0 no-repeat;
+	width: 30px;
+	height: 30px;
+	vertical-align: top;
+}
+
+.list-training-2::after {
+	content: "";
+	background-color: #008000;
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	margin-left: 5px;
+}
+
+.list-training-3::after {
+	content: "";
+	background-color: #008000;
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	margin-left: 5px;
+}
+
+.list-training-3::before {
+	content: "";
+	background-color: #008000;
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	margin-right: 5px;
+}
+
+.list-training-4:hover::before {
+	content: "";
+	background-color: #008000;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	margin-right: 5px;
+}
+
+.list-training-4::before {
+	content: "";
+	background-color: #80000d;
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	margin-right: 5px;
+}
+
+.list-ol {
+	color: #fff;
+	font-size: 20px;
+	line-height: 1.5;
+}
+
+.list-ol:not(:last-child) {
+	margin-bottom: 10px;
+}
+
+.item-ol {}
+
+.ol-1::before {
+	content: "1";
+	width: 10px;
+	height: 10px;
+	color: #0e0d0f;
+	margin-right: 5px;
+}
+
+.ol-2::before {
+	content: "2";
+	width: 10px;
+	height: 10px;
+	color: #0e0d0f;
+	margin-right: 5px;
+}
+
+.ol-3::before {
+	content: "3";
+	width: 10px;
+	height: 10px;
+	color: #0e0d0f;
+	margin-right: 5px;
+}
+
+.ol-4::before {
+	content: "4";
+	width: 10px;
+	height: 10px;
+	color: #0e0d0f;
+	margin-right: 5px;
+}
+
+/* !Блок 2 */
+
+.meet {
+	background: #412672;
+	padding: 60px 0px 100px 0px;
+}
+
+.container-meet {
+	max-width: 1230px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+
+.title-meet {
+	margin-bottom: 31px;
+}
+
+.title-meet p:first-child {
+	color: #FFF;
+	font-family: "Inter", sans-serif;
+	font-size: 38px;
+	font-weight: 400;
+	line-height: 1.2;
+}
+
+.title-meet p:last-child {
+	color: #FFF;
+	font-family: "Inter", sans-serif;
+	font-size: 38px;
+	font-weight: 700;
+	line-height: 1.2;
+}
+
+.cards {
+	font-size: 0;
+	margin: 0 -10px;
+}
+
+.card {
+	padding: 0 10px;
+	display: inline-block;
+	vertical-align: top;
+	width: 33.333%;
+}
+
+.card-container {
+	background-color: #fff;
+	padding: 20px;
+}
+
+/* *hover на всі картки */
+.card-container:hover {
+	background-color: #FFBE48;
+}
+
+/* *на першу картку */
+/* .cards .card:first-child .card-container:hover {
+	background-color: #FFBE48;
+} */
+
+.card-image {
+	max-width: 347px;
+	max-height: 266px;
+	overflow: hidden;
+}
+
+.card-text p {
+	color: #4F4F4F;
+	font-family: "Inter", sans-serif;
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 1.26;
+}
+
+/* *тимчасовий запис, щоб вирівняти картки по висоті */
+.card-text-hight {
+	min-height: 76px;
+}
+
+.card *:not(:last-child) {
+	margin-bottom: 16px;
+}
+
+.card-text p:first-child {
+	color: #000;
+	font-size: 22px;
+	font-weight: 600;
+	line-height: 1.22;
+}
+
+.card-text p:last-child {
+	color: #FE3F3F;
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 1.26;
+}
+
+.card-link:hover {
+	text-decoration: underline;
+}
+
+/* !Блок 3 */
+
+.faculty {}
+
+.container-faculty {
+	max-width: 550px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+
+.content-faculty {
+	padding: 100px 0;
+}
+
+.content-faculty>div:not(:last-child) {
+	margin-bottom: 20px;
+}
+
+.title-faculty {
+	color: #412672;
+	font-family: "Inter", sans-serif;
+	font-size: 34px;
+	font-weight: 400;
+	line-height: 1.2;
+}
+
+.title-faculty p:last-child {
+	font-weight: 700;
+}
+
+.text-faculty {
+	color: #412672;
+	font-family: "Inter", sans-serif;
+	font-size: 22px;
+	font-weight: 400;
+	line-height: 1.22;
+}
+
+.list {
+	color: #4F4F4F;
+	font-family: "Inter", sans-serif;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 2.55;
+}
+
+.list li::before {
+	content: "";
+	background: url("../img/Frame.svg") 0 0 no-repeat;
+	width: 29px;
+	height: 29px;
+	margin-right: 15px;
+	vertical-align: middle;
+}
+
+/* !game */
+
+.game {
+	background: linear-gradient(108deg, rgba(51, 35, 110, 1) 0%, rgba(30, 43, 184, 1) 50%, rgba(177, 47, 167, 1) 100%);
+	padding: 30px 0;
+	color: #FFF;
+}
+
+.game-container {
+	max-width: 1080px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+
+.title-start {
+	font-size: 30px;
+}
+
+.step {
+	background: linear-gradient(108deg, rgba(213, 217, 120, 1) 0%, rgba(39, 188, 232, 1) 47%, rgba(236, 75, 145, 1) 100%);
+}
+
+.step-0 {
+	background-color: orange;
+	width: 70px;
+	height: 30px;
+	border-radius: 0 10px 10px 0px;
+	text-align: center;
+}
+
+.step-1 {
+	width: 30px;
+	height: 100px;
+}
+
+.step-2 {
+	width: 150px;
+	height: 30px;
+}
+
+.step-3 {
+	width: 30px;
+	height: 100px;
+	margin: -30px 0px 0px 150px;
+}
+
+.step-4 {
+	width: 150px;
+	height: 30px;
+	margin: 0px 0px 0px 150px;
+}
+
+.step-5 {
+	width: 30px;
+	height: 150px;
+	margin: -150px 0px 0px 300px;
+}
+
+.step-6 {
+	width: 150px;
+	height: 30px;
+	margin: -150px 0px 0px 300px;
+}
+
+.step-7 {
+	width: 25px;
+	height: 300px;
+	margin: -30px 0px 0px 450px;
+}
+
+.step-8 {
+	width: 160px;
+	height: 25px;
+	margin: 0px 0px 0px 315px;
+}
+
+.step-9 {
+	width: 15px;
+	height: 150px;
+	margin: 0px 0px 0px 315px;
+}
+
+.step-10 {
+	width: 305px;
+	height: 15px;
+	margin: 0px 0px 0px 315px;
+}
+
+.step-11 {
+	width: 15px;
+	height: 100px;
+	margin: 0px 0px 0px 605px;
+}
+
+.step-12 {
+	width: 107px;
+	height: 10px;
+	margin: 0px 0px 0px 605px;
+}
+
+.step-13 {
+	width: 10px;
+	height: 50px;
+	margin: 0px 0px 0px 702px;
+}
+
+.step-14 {
+	width: 50px;
+	height: 20px;
+	margin: 0px 0px 0px 681px;
+	text-align: center;
+	line-height: 1.25;
+	color: #000;
+	text-decoration: underline;
+}
+
+.step:not(:first-child) {
+	visibility: hidden;
+}
+
+/* !код нижче я підглянув у ментора, сам так і не додумався.*/
+
+.step:hover+.step,
+.step:hover {
+	visibility: visible;
+}
+
+/* !footer */
+
+.footer {
+	background-color: #8b8888;
+	color: #ffa500;
+	font-size: 50px;
+	text-align: center;
+	text-transform: uppercase;
+	padding: 20px 0;
+	margin-bottom: 30px;
+}
