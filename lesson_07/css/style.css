@@ -594,11 +594,6 @@ h3 {
 	font-size: 20px;
 	line-height: 1.4;
 	padding: 0px 0px 0px 50px;
-	font-size: 0;
-}
-
-.list li {
-	font-size: 22px;
 }
 
 .list li:not(:last-child) {
