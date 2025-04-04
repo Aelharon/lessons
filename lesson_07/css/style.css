@@ -593,22 +593,27 @@ h3 {
 	font-family: "Inter", sans-serif;
 	font-size: 20px;
 	line-height: 1.4;
+	padding: 0px 0px 0px 50px;
+	font-size: 0;
 }
 
-.container-list {
-	margin: -35px 0 0 40px;
+.list li {
+	font-size: 22px;
 }
 
 .list li:not(:last-child) {
 	margin-bottom: 15px;
 }
 
+
+
 .list li::before {
 	content: "";
 	background: url("../img/Frame.svg") 0 0 no-repeat;
 	width: 29px;
 	height: 29px;
-	/* vertical-align: middle; */
+	vertical-align: middle;
+	margin: 0px 20px 0px -50px;
 }
 
 /* !game */
