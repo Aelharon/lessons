@@ -54,7 +54,6 @@
 	background-repeat: no-repeat;
 	background-position: 0 0;
 	background-size: 20px 20px;
-	line-height: 1.4;
 }
 
 .list>li {
@@ -137,20 +136,19 @@
 	line-height: 1.25;
 }
 
-.button-hydra {
-	width: 214px;
-	height: 48px;
-	border-radius: 40px;
-	background: linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%);
-	text-align: center;
-	line-height: 4;
-}
+.button-hydra {}
 
 .button-hydra a {
 	color: #343045;
 	font-family: "Montserrat", sans-serif;
 	font-size: 12px;
 	font-weight: 700;
+	width: 214px;
+	height: 48px;
+	border-radius: 40px;
+	background: linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%);
+	text-align: center;
+	line-height: 4;
 }
 
 .contacts {
@@ -169,27 +167,31 @@
 
 .row-contacts {
 	font-size: 0;
+	padding: 48px 25px;
+}
+
+.item-contacts {
+	display: inline-block;
+	min-width: 400px;
+
 }
 
 .item-1 {
-	display: inline-block;
-}
 
-.item-1 .icon {
-	padding-left: 30px;
+	/* display: inline-block; */
 }
 
 .item-2 {
-	display: inline-block;
+	/* display: inline-block; */
 }
 
 .item-3 {
-	display: inline-block;
+	/* display: inline-block; */
 }
 
 .icon {
 	display: inline-block;
-	padding: 48px 0;
+	/* padding: 48px 0; */
 	margin-right: 25px;
 }
 
@@ -201,7 +203,7 @@
 .contacts-content {
 	display: inline-block;
 	vertical-align: middle;
-	margin-right: 42.5px;
+	/* margin-right: 30px; */
 }
 
 .contacts-title {
@@ -221,11 +223,13 @@
 
 .contacts-line {
 	display: inline-block;
-	margin-right: 50px;
-	/* width: 1px;
+	width: 1px;
 	height: 116px;
-	background-color: #615A7E; */
+	background-color: #615A7E;
+	vertical-align: middle;
+	margin: 0px 15px;
 }
+
 
 
 
