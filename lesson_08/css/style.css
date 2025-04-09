@@ -64,7 +64,7 @@ ul li:not(:last-child) {
 
 .icon-1::before {
 	content: "";
-	background: url("../img/icon-1.svg") 0 0 no-repeat;
+	background: url("../img/Vector-1.svg") 0 0 no-repeat;
 	width: 40px;
 	height: 40px;
 	background-size: 40px 40px;
@@ -75,84 +75,6 @@ ul li:not(:last-child) {
 
 .icon-2::before {
 	content: "";
-	background: url("../img/icon-2.svg") 0 0 no-repeat;
-	width: 40px;
-	height: 40px;
-	background-size: 40px 40px;
-	vertical-align: top;
-	margin-right: 20px;
-	/* margin-left: -60px; */
-}
-
-
-.icon-3::before {
-	content: "";
-	background: url("../img/icon-3.svg") 0 0 no-repeat;
-	width: 40px;
-	height: 40px;
-	background-size: 40px 40px;
-	vertical-align: top;
-	margin-right: 20px;
-	/* margin-left: -60px; */
-}
-
-.icon-4::before {
-	content: "";
-	background: url("../img/icon-4.svg") 0 0 no-repeat;
-	width: 40px;
-	height: 40px;
-	background-size: 40px 40px;
-	vertical-align: top;
-	margin-right: 20px;
-	/* margin-left: -60px; */
-}
-
-.icon-5::before {
-	content: "";
-	background: url("../img/icon-5.svg") 0 0 no-repeat;
-	width: 40px;
-	height: 40px;
-	background-size: 40px 40px;
-	vertical-align: top;
-	margin-right: 20px;
-	/* margin-left: -60px; */
-}
-
-.icon-6::before {
-	content: "";
-	background: url("../img/icon-6.svg") 0 0 no-repeat;
-	width: 40px;
-	height: 40px;
-	background-size: 40px 40px;
-	vertical-align: top;
-	margin-right: 20px;
-	/* margin-left: -60px; */
-}
-
-.icon-7::before {
-	content: "";
-	background: url("../img/icon-7.svg") 0 0 no-repeat;
-	width: 40px;
-	height: 40px;
-	background-size: 40px 40px;
-	vertical-align: top;
-	margin-right: 20px;
-	/* margin-left: -60px; */
-}
-
-.icon-8::before {
-	content: "";
-	background: url("../img/Vector-1.svg") 0 0 no-repeat;
-	width: 40px;
-	height: 40px;
-	background-size: 40px 40px;
-	vertical-align: top;
-	margin-right: 20px;
-	/* margin-left: -60px; */
-}
-
-.icon-9::before {
-	content: "";
 	background: url("../img/Vector-2.svg") 0 0 no-repeat;
 	width: 40px;
 	height: 40px;
@@ -162,7 +84,7 @@ ul li:not(:last-child) {
 	/* margin-left: -60px; */
 }
 
-.icon-10::before {
+.icon-3::before {
 	content: "";
 	background: url("../img/Vector-4.svg") 0 0 no-repeat;
 	width: 40px;
@@ -172,6 +94,7 @@ ul li:not(:last-child) {
 	margin-right: 20px;
 	/* margin-left: -60px; */
 }
+
 
 .list-content {
 	color: rgb(0, 255, 4);
@@ -202,6 +125,48 @@ ul li:not(:last-child) {
 	max-width: 300px;
 	max-height: 200px;
 	border-radius: 27.32% 0;
+	margin-right: 20px;
+}
+
+.content-5 img {
+	width: 40px;
+	height: 40px;
+	margin-right: 20px;
+}
+
+.content-6 img {
+	width: 40px;
+	height: 40px;
+	margin-right: 20px;
+}
+
+.content-7 img {
+	width: 40px;
+	height: 40px;
+	margin-right: 20px;
+}
+
+.content-8 img {
+	width: 40px;
+	height: 40px;
+	margin-right: 20px;
+}
+
+.content-9 img {
+	width: 40px;
+	height: 40px;
+	margin-right: 20px;
+}
+
+.content-10 img {
+	width: 40px;
+	height: 40px;
+	margin-right: 20px;
+}
+
+.content-11 img {
+	width: 40px;
+	height: 40px;
 	margin-right: 20px;
 }
 
