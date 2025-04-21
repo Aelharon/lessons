@@ -121,7 +121,7 @@
 
 .card__title:hover {
 	color: #2C742F;
-
+	text-decoration: underline;
 }
 
 .card__price {
@@ -139,14 +139,36 @@
 	border-radius: 50%;
 	background-color: #F2F2F2;
 	display: block;
+	position: absolute;
 	bottom: 10%;
 	right: 4.2%;
+}
+
+.bag__icon {
 	position: absolute;
 }
 
 .card__bag:hover {
 	background-color: #00B207;
 }
+
+.bag__icon--white {
+	opacity: 0;
+	overflow: hidden;
+}
+
+.card__bag:hover .bag__icon--white {
+	opacity: 1;
+	overflow: visible;
+}
+
+.card__bag:hover .bag__icon--black {
+	opacity: 0;
+	overflow: hidden;
+}
+
+
+
 
 /* .card__stars {
 	font-size: 0;
