@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zxx">
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,7 +9,39 @@
 	</head>
 	<body>
 		<div class="wrapper">
-			<header class="header"><h1>header</h1></header>
+			<header class="header">
+				<h1>homwork</h1>
+				<div class="header__container">
+					<ul class="menu">
+						<li class="menu__item">
+							<a href="#" class="menu__link">header</a>
+						</li>
+						<li class="menu__item">
+							<a href="#" class="menu__link">card</a>
+						</li>
+						<li class="menu__item">
+							<a href="#" class="menu__link menu__link--border">technology</a>
+							<ul class="sub-menu menu__sub-menu">
+								<li class="sub-menu__item">
+									<a href="#" class="sub-menu__link">first-row</a>
+								</li>
+								<li class="sub-menu__item">
+									<a href="#" class="sub-menu__link">first-img</a>
+								</li>
+								<li class="sub-menu__item">
+									<a href="#" class="sub-menu__link">Second-row</a>
+								</li>
+								<li class="sub-menu__item">
+									<a href="#" class="sub-menu__link">Second-img</a>
+								</li>
+							</ul>
+						</li>
+						<li class="menu__item">
+							<a href="#" class="menu__link">footer</a>
+						</li>
+					</ul>
+				</div>
+			</header>
 			<main class="main">
 				<div class="page">
 					<div class="section-card">
@@ -17,18 +49,19 @@
 							<div class="card">
 								<a href="#" class="card__image"><img src="img/Image_1.webp"
 										alt="Chinese cabbage"></a>
-								<div class="card__icon icon-card">
-									<img class="icon-card__icon-heart" src="img/heart.svg"
+								<a href="#" class="card__actions actions-card">
+									<img class="actions-card__actions-heart" src="img/heart.svg"
 										alt="Add To wishlist">
-									<img class="icon-card__icon-eye" src="img/eye.svg" alt="Quick View">
-								</div>
-								<div class="card__items">
+									<img class="actions-card__actions-eye" src="img/eye.svg"
+										alt="Quick View">
+								</a>
+								<div class="card__info">
 									<a href="#" class="card__title">Chinese cabbage</a>
 									<div class="card__price">$12.00</div>
 									<a href="#" class="card__bag bag">
-										<img class="bag__icon bag__icon--black" src="img/black_bag.svg"
+										<img class="bag__actions bag__actions--black" src="img/black_bag.svg"
 											alt="Add To Cart">
-										<img class="bag__icon bag__icon--white" src="img/white_bag.svg"
+										<img class="bag__actions bag__actions--white" src="img/white_bag.svg"
 											alt="Add To Cart">
 									</a>
 									<!-- <ul class="card__stars stars-list">
@@ -45,11 +78,12 @@
 					<div class="section-technology">
 						<div class="section-technology__container">
 							<div class="first-row row">
-								<img class="row__image row__image--position-first"
-									src="img/section-2/Rectangle_1.webp"
-									alt="На зображенні дві жінки дивляться на ноутбук">
-								<div class="first-row__ellipse-31"></div>
-								<div class="row__text row__text--position-first">
+								<div class="first-row__image">
+									<img class="row__image row__image--shadow"
+										src="img/section-2/Rectangle_1.webp"
+										alt="На зображенні дві жінки дивляться на ноутбук">
+								</div>
+								<div class="row__text">
 									<h2>The Industry's Top-Rated GRC and Audit Management Technology</h2>
 									<p>Built to provide the efficiency, connectedness, and visibility you
 										need to stay ahead of today’s dynamic risk environment. Built to
@@ -57,15 +91,12 @@
 										stay
 										ahead of today’s dynamic risk environment.
 									</p>
-									<a href="#" class="row__link link-button">
-										<div class="link-button__text">Read the Documentation</div>
-									</a>
+									<a href="#" class="row__link">Read the Documentation</a>
 								</div>
 							</div>
 							<div class="second-row row">
-								<div class="second-row__ellipse-34"></div>
 								<div
-									class="row__text row__text--second-width row__text--second-pisition">
+									class="row__text row__text--second-width">
 									<h2>Explore the Modern Connected Risk
 										Platform
 									</h2>
@@ -73,13 +104,13 @@
 										need to stay ahead of today’s dynamic risk environment. Built to
 										provide the efficiency, connectedness, and visibility you need to
 										stay ahead of today’s dynamic risk environment.</p>
-									<a href="#" class="row__link link-button">
-										<div class="link-button__text">Read the Documentation</div>
-									</a>
+									<a href="#" class="row__link">Read the Documentation</a>
 								</div>
-								<img class="row__image row__image--position-second"
-									src="img/section-2/Rectangle_2.webp"
-									alt="На зображенні видно групу людей, які, робочій зустрічі. Один чоловік стоїть біля білої дошки з прикріпленими до неї кольоровими стікерами">
+								<div class="second-row__image">
+									<img class="row__image"
+										src="img/section-2/Rectangle_2.webp"
+										alt="На зображенні видно групу людей, які, робочій зустрічі. Один чоловік стоїть біля білої дошки з прикріпленими до неї кольоровими стікерами">
+								</div>
 							</div>
 						</div>
 					</div>
