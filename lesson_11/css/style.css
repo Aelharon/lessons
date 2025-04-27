@@ -1,0 +1,482 @@
+@import url("reset.css");
+@import url('https://fonts.googleapis.com/css2?family=BIZ%20UDPMincho:wght@400;700&display=swap');
+
+body {
+	font-family: "BIZ UDPMincho", serif;
+	background-color: #aaaaaa;
+	color: #fff;
+}
+
+.wrapper {
+	overflow: clip;
+	min-height: 100%;
+}
+
+[class*="__container"] {
+	max-width: 830px;
+	margin: 0 auto;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.header {
+	text-transform: uppercase;
+	font-size: 30px;
+	font-weight: 700;
+	letter-spacing: 5px;
+	padding: 30px 0;
+	background-color: #6aa8ad;
+	text-align: center;
+}
+
+.page {}
+
+/* ! .sectiion-2d */
+
+
+.sectiion-2d {}
+
+.section-2d__row {
+	font-size: 0;
+	padding: 30px 20px;
+}
+
+.section-2d__card {
+	display: inline-block;
+	background-color: #87b62a;
+	text-align: center;
+	width: 170px;
+	min-height: 250px;
+	padding: 10px;
+	border-radius: 10px;
+	border: solid 1px #fff;
+	vertical-align: top;
+}
+
+.section-2d__card:not(:last-child) {
+	margin: 0 15px 15px 0;
+}
+
+.section-2d__item {
+	width: 150px;
+	height: 150px;
+	border-radius: 10px;
+	background-color: #004f80d6;
+	text-transform: uppercase;
+	font-family: "BIZ UDPMincho", serif;
+	font-weight: 700;
+	line-height: 150px;
+	font-size: 60px;
+	text-shadow: 0px 0px 10px greenyellow;
+	margin-bottom: 10px;
+}
+
+.section-2d__text {
+	font-size: 16px;
+}
+
+.section-2d__item--1:hover {
+	transform: translate(20px, 0);
+}
+
+.section-2d__item--2:hover {
+	transform: translate(20px, -10px);
+}
+
+.section-2d__item--3:hover {
+	transform: scale(1.2);
+}
+
+.section-2d__item--4:hover {
+	transform: scale(0.8);
+}
+
+.section-2d__item--5:hover {
+	transform: rotate(20deg);
+}
+
+.section-2d__item--6:hover {
+	transform: rotate(-20deg);
+}
+
+.section-2d__item--7:hover {
+	transform: rotateY(50deg);
+}
+
+.section-2d__item--8:hover {
+	transform: rotateX(50deg);
+	/* transform: rotateY(360deg);
+	transition: all 1s; */
+}
+
+.section-2d__item--9:hover {
+	transform: skew(10deg, 0);
+}
+
+.section-2d__item--10:hover {
+	transform: skew(0deg, 10deg);
+}
+
+.section-2d__item--11:hover {
+	transform: skew(10deg, 10deg);
+}
+
+.section-2d__item--12:hover {
+	transform: matrix(1.13, -0.41, -0.06, 1.30, 50, 0);
+	/* transform: translate(30px, 0px) scale(1.2) rotate(-20deg) rotateX(30deg) skew(15deg, 5deg); */
+}
+
+.section-2d__item--13:hover {
+	transform-origin: top left;
+	transform: rotate(40deg);
+}
+
+.section-2d__item--14:hover {
+	transform-origin: bottom right;
+	transform: rotate(-40deg);
+}
+
+.section-2d__item--15:hover {
+	transform-origin: left;
+	transform: rotateY(60deg);
+	/* transition: all 2s; */
+}
+
+.section-2d__item--16:hover {
+	transform-origin: 50% 90%;
+	transform: rotate(180deg);
+	/* transition: all 2s; */
+}
+
+/* ! .sectiion-3d */
+
+.section-3d__row {
+	font-size: 0;
+	padding: 30px 20px;
+}
+
+.section-3d__card {
+	display: inline-block;
+	background-color: #5ec6e6;
+	text-align: center;
+	width: 170px;
+	min-height: 250px;
+	padding: 10px;
+	border-radius: 10px;
+	border: solid 1px #fff;
+	vertical-align: top;
+	perspective: 300px;
+	perspective-origin: center;
+}
+
+.section-3d__card:not(:last-child) {
+	margin: 0 15px 15px 0;
+}
+
+.section-3d__item {
+	width: 150px;
+	height: 150px;
+	border-radius: 10px;
+	background-color: #004f80d6;
+	text-transform: uppercase;
+	font-family: "BIZ UDPMincho", serif;
+	font-weight: 700;
+	line-height: 150px;
+	font-size: 60px;
+	text-shadow: 0px 0px 10px greenyellow;
+	margin-bottom: 10px;
+}
+
+.section-3d__text {
+	font-size: 16px;
+}
+
+.section-3d__item--1:hover {
+	transform: translate3d(-20px, -20px, 60px);
+}
+
+.section-3d__item--2:hover {
+	transform: rotateY(60deg);
+}
+
+.section-3d__item--3:hover {
+	transform: scale3d(2, 2, 2);
+}
+
+.section-3d__item--4:hover {
+	transform: rotate3d(1, 1, 1, 30deg);
+}
+
+.section-3d__item--5:hover {
+	transform: translate3d(-40px, 20px, 120px) rotate3d(1, 2, 1, 20deg);
+}
+
+.section-3d__card--3d-syle {
+	transform-style: preserve-3d;
+	background-color: #5ec6e69e;
+}
+
+.section-3d__item--6:hover {
+	transform: rotateY(60deg);
+}
+
+.section-3d__item--7:hover {
+	transform: rotateX(50deg);
+}
+
+.section-3d__item--8:hover {
+	transform: translate3D(10px, 10px, 50px) skew(0deg, -10deg);
+}
+
+/* ! Flip */
+
+.section-flip {
+	padding: 30px 0;
+}
+
+.section-flip__container {}
+
+.section-flip__body {
+	max-width: 200px;
+	position: relative;
+	perspective: 800px;
+}
+
+.section-flip__image-back,
+.section-flip__image-front {
+	transition: 0.3s;
+	/* overflow: hidden; */
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	padding: 25px;
+}
+
+
+.section-flip__image-back {
+	transform: rotateY(180deg);
+	background-color: #5ee68e;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.section-flip__image-front {
+	background-color: #5e67e6;
+	backface-visibility: hidden;
+	transform: rotateY(0deg);
+}
+
+.section-flip__body:hover .section-flip__image-back {
+	transform: rotateY(0deg);
+}
+
+.section-flip__body:hover .section-flip__image-front {
+	transform: rotateY(-180deg);
+}
+
+.section-flip__image {
+	width: 100%;
+	height: 100%;
+}
+
+
+/* ! car */
+
+.section-car {
+	padding: 30px 0;
+	background: url("../image/doroga-s-boku-1.webp") no-repeat 0 0 / 100% 500px;
+}
+
+.section-car__container {}
+
+.car {
+	transform: translate(100px, 200px);
+}
+
+.car__body-top {}
+
+.top-body {
+	font-size: 0;
+}
+
+.top-body__right {
+	display: inline-block;
+	width: 130px;
+	height: 90px;
+	background-color: #bac196;
+	transform: skewX(30deg) translate(210px, 1px);
+	border-top: solid 1px #333;
+	border-radius: 0 5px 0 0;
+	border-right: solid 1px #333;
+	position: relative;
+	z-index: 1;
+}
+
+.top-body__right::after {
+	content: "";
+	width: 7px;
+	height: 75px;
+	border-radius: 5px;
+	background-color: #5ec6e6;
+	position: absolute;
+	top: 10px;
+	right: -1px;
+}
+
+.top-body__left {
+	display: inline-block;
+	width: 120px;
+	height: 90px;
+	background-color: #bac196;
+	transform: skewX(-15deg) translate(0px, 1px);
+	border-top: solid 1px #333;
+	border-left: solid 1px #333;
+	border-radius: 5px 0px 0px 0px;
+	position: relative;
+	z-index: 1;
+}
+
+.top-body__left::before {
+	content: "";
+	width: 7px;
+	height: 75px;
+	border-radius: 5px;
+	background-color: #5ec6e6;
+	position: absolute;
+	top: 10px;
+	left: -1px;
+}
+
+.top-body__left::after {
+	content: "";
+	width: 50px;
+	height: 75px;
+	transform: skewX(15deg);
+	border-radius: 75% 10% 10% 10%/100% 10% 10% 10%;
+	background-color: #5ec6e6;
+	position: absolute;
+	top: 10px;
+	left: 7px;
+	border: solid 1px #fff;
+}
+
+.car__body-bottom {
+	width: 450px;
+	height: 100px;
+	background-color: #bac196;
+	transform: skew(-10deg, 0deg);
+	border-radius: 10px;
+	border: solid 1px #333;
+}
+
+.car__body-bottom::before {
+	content: "";
+	width: 10px;
+	height: 50px;
+	background-color: #e65e5e;
+	border-radius: 10px 0 0 3px;
+	transform: translate(-3px, -0.5px);
+}
+
+.car__body-bottom::after {
+	content: "";
+	width: 20px;
+	height: 30px;
+	background-color: #e4e65e;
+	border-left: 3px solid #fff;
+	border-top: 3px solid #fff;
+	border-bottom: 3px solid #fff;
+	border-radius: 3% 50% 50% 3%/3% 50% 50% 3%;
+	transform: translate(430px, 0px);
+}
+
+
+.car__door {
+	width: 120px;
+	height: 160px;
+	background-color: #bac196;
+	border: 1px solid #333;
+	position: relative;
+	top: -178px;
+	left: 215px;
+	z-index: 2;
+	border-radius: 3% 65% 59% 3%/3% 89% 0% 3%;
+	transform-origin: right;
+}
+
+.car__bg-door {
+	width: 120px;
+	height: 160px;
+	background: url("../image/images.jpg") no-repeat 0 0 / 120px 160px;
+	border-radius: 3% 65% 59% 3%/3% 89% 0% 3%;
+	position: absolute;
+	top: 12px;
+	left: 215px;
+	z-index: 2;
+}
+
+.car__door:hover {
+	transform: rotateY(60deg);
+	transition: 0.5s;
+}
+
+
+.car__door::after {
+	content: "";
+	width: 30px;
+	height: 10px;
+	background-color: #333;
+	transform: translate(15px, 20px);
+	border-radius: 10px;
+}
+
+.door__glass {
+	width: 90px;
+	height: 70px;
+	border-radius: 3% 65% 59% 3%/3% 89% 0% 3%;
+	background-color: #5ec6e6;
+	transform: translate(5px, 10px);
+}
+
+.car__wheels {}
+
+.wheel {
+	display: inline-block;
+	width: 80px;
+	height: 80px;
+	background-color: #333;
+	border-radius: 50%;
+	position: relative;
+}
+
+.wheel::before {
+	content: "";
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background-color: #8c8b8b;
+	position: absolute;
+	top: 15px;
+	left: 15px;
+	border: 5px dashed #fff;
+}
+
+.car__wheel-left {
+	transform: translate(30px, -200px);
+}
+
+.car__wheel-right {
+	transform: translate(260px, -200px);
+}
+
+
+.footer {
+	text-transform: uppercase;
+	font-size: 30px;
+	font-weight: 700;
+	letter-spacing: 5px;
+	padding: 30px 0;
+	background-color: #6aa8ad;
+	text-align: center;
+}
