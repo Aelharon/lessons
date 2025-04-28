@@ -75,74 +75,74 @@ body {
 	font-size: 16px;
 }
 
-.section-2d__item--1:hover {
+.section-2d__card:hover .section-2d__item--1 {
 	transform: translate(20px, 0);
 }
 
-.section-2d__item--2:hover {
+.section-2d__card:hover .section-2d__item--2 {
 	transform: translate(20px, -10px);
 }
 
-.section-2d__item--3:hover {
+.section-2d__card:hover .section-2d__item--3 {
 	transform: scale(1.2);
 }
 
-.section-2d__item--4:hover {
+.section-2d__card:hover .section-2d__item--4 {
 	transform: scale(0.8);
 }
 
-.section-2d__item--5:hover {
+.section-2d__card:hover .section-2d__item--5 {
 	transform: rotate(20deg);
 }
 
-.section-2d__item--6:hover {
+.section-2d__card:hover .section-2d__item--6 {
 	transform: rotate(-20deg);
 }
 
-.section-2d__item--7:hover {
+.section-2d__card:hover .section-2d__item--7 {
 	transform: rotateY(50deg);
 }
 
-.section-2d__item--8:hover {
+.section-2d__card:hover .section-2d__item--8 {
 	transform: rotateX(50deg);
 	/* transform: rotateY(360deg);
 	transition: all 1s; */
 }
 
-.section-2d__item--9:hover {
+.section-2d__card:hover .section-2d__item--9 {
 	transform: skew(10deg, 0);
 }
 
-.section-2d__item--10:hover {
+.section-2d__card:hover .section-2d__item--10 {
 	transform: skew(0deg, 10deg);
 }
 
-.section-2d__item--11:hover {
+.section-2d__card:hover .section-2d__item--11 {
 	transform: skew(10deg, 10deg);
 }
 
-.section-2d__item--12:hover {
+.section-2d__card:hover .section-2d__item--12 {
 	transform: matrix(1.13, -0.41, -0.06, 1.30, 50, 0);
 	/* transform: translate(30px, 0px) scale(1.2) rotate(-20deg) rotateX(30deg) skew(15deg, 5deg); */
 }
 
-.section-2d__item--13:hover {
+.section-2d__card:hover .section-2d__item--13 {
 	transform-origin: top left;
 	transform: rotate(40deg);
 }
 
-.section-2d__item--14:hover {
+.section-2d__card:hover .section-2d__item--14 {
 	transform-origin: bottom right;
 	transform: rotate(-40deg);
 }
 
-.section-2d__item--15:hover {
+.section-2d__card:hover .section-2d__item--15 {
 	transform-origin: left;
 	transform: rotateY(60deg);
 	/* transition: all 2s; */
 }
 
-.section-2d__item--16:hover {
+.section-2d__card:hover .section-2d__item--16 {
 	transform-origin: 50% 90%;
 	transform: rotate(180deg);
 	/* transition: all 2s; */
@@ -191,23 +191,23 @@ body {
 	font-size: 16px;
 }
 
-.section-3d__item--1:hover {
+.section-3d__card:hover .section-3d__item--1 {
 	transform: translate3d(-20px, -20px, 60px);
 }
 
-.section-3d__item--2:hover {
+.section-3d__card:hover .section-3d__item--2 {
 	transform: rotateY(60deg);
 }
 
-.section-3d__item--3:hover {
+.section-3d__card:hover .section-3d__item--3 {
 	transform: scale3d(2, 2, 2);
 }
 
-.section-3d__item--4:hover {
+.section-3d__card:hover .section-3d__item--4 {
 	transform: rotate3d(1, 1, 1, 30deg);
 }
 
-.section-3d__item--5:hover {
+.section-3d__card:hover .section-3d__item--5 {
 	transform: translate3d(-40px, 20px, 120px) rotate3d(1, 2, 1, 20deg);
 }
 
@@ -216,15 +216,15 @@ body {
 	background-color: #5ec6e69e;
 }
 
-.section-3d__item--6:hover {
+.section-3d__card:hover .section-3d__item--6 {
 	transform: rotateY(60deg);
 }
 
-.section-3d__item--7:hover {
+.section-3d__card:hover .section-3d__item--7 {
 	transform: rotateX(50deg);
 }
 
-.section-3d__item--8:hover {
+.section-3d__card:hover .section-3d__item--8 {
 	transform: translate3D(10px, 10px, 50px) skew(0deg, -10deg);
 }
 
