@@ -281,6 +281,62 @@ body {
 }
 
 
+
+/* ! cube */
+
+.sectiion-cube {
+	width: 250px;
+	height: 250px;
+	margin: 30px 0;
+}
+
+.sectiion-cube:hover .cube {
+	transform: translate(450px, -150px) scale(1.4) rotate3d(1, 1, 1, 420deg);
+	transition: all 2s;
+}
+
+.cube {
+	position: relative;
+	transform-style: preserve-3d;
+}
+
+.cube__side {
+	width: 250px;
+	height: 250px;
+	background-color: rgba(255, 166, 0, 0.8);
+	position: absolute;
+	box-shadow: 2px -2px 50px 22px rgba(0, 0, 0, 0.75) inset, 0px 0px 50px 9px rgba(239, 23, 23, 0.75);
+	border-radius: 10px;
+}
+
+.side-front {
+	transform: translateZ(125px);
+	font-size: 100px;
+	font-weight: 700;
+	text-align: center;
+	line-height: 250px;
+}
+
+.side-back {
+	transform: translateZ(-125px);
+}
+
+.side-left {
+	transform: rotateY(90deg) translateZ(-125px);
+}
+
+.side-right {
+	transform: rotateY(90deg) translateZ(125px);
+}
+
+.side-top {
+	transform: rotateX(90deg) translatez(-125px);
+}
+
+.side-bottom {
+	transform: rotateX(90deg) translatez(125px);
+}
+
 /* ! car */
 
 .section-car {
