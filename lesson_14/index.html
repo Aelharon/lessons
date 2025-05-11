@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+		<title>lesson 14</title>
+	</head>
+	<body>
+		<div class="wrapper">
+			<header class="header">
+				<div class="header__container">
+					header
+				</div>
+			</header>
+			<main class="page">
+				<div class="page__container">
+					<form class="section-data" action="#">
+						<div class="information">
+							<div class="information__form form-information">
+								<h2 class="form-information__title">Billing Information</h2>
+								<div class="form-information__name">
+									<div class="form-information__wrapper-name">
+										<label for="first-name" class="form-information__label">First
+											name</label>
+										<input name="form[]" class="form-information__input" id="first-name"
+											required
+											placeholder="Your first name" type="text">
+									</div>
+									<div class="form-information__wrapper-name">
+										<label for="Last-name" class="form-information__label">Last
+											name</label>
+										<input name="form[]" class="form-information__input" id="Last-name"
+											required
+											placeholder="Your last name" type="text">
+									</div>
+									<div class="form-information__wrapper-name">
+										<label for="company-name" class="form-information__label">Company Name
+											<strong>(optional)</strong></label>
+										<input name="form[]" class="form-information__input" id="company-name"
+											required
+											placeholder="Company Name" type="text">
+									</div>
+								</div>
+								<div class="form-information__address">
+									<label for="address" class="form-information__label">
+										Street Address
+									</label>
+									<input name="form[]" class="form-information__input" id="address"
+										required
+										placeholder="Address" type="text">
+								</div>
+								<div class="form-information__country country-information">
+									<div
+										class="country-information__wrapper country-information__wrapper--max-width">
+										<label for="country" class="form-information__label">
+											Country / Region
+										</label>
+										<select class="country-information__select"
+											name="form[]" id="country">
+											<option value="1">USA</option>
+											<option value="2">Ukraine</option>
+											<option value="3">Ibiza</option>
+										</select>
+									</div>
+									<div
+										class="country-information__wrapper country-information__wrapper--max-width">
+										<label for="states" class="form-information__label">
+											States
+										</label>
+										<select class="country-information__select" name="form[]" id="states">
+											<option value="1">Selects</option>
+											<option value="2">Selects</option>
+											<option value="3">Selects</option>
+										</select>
+									</div>
+									<div
+										class="country-information__wrapper country-information__wrapper--max-width">
+										<label for="zip-Code" class="form-information__label">
+											Zip Code
+										</label>
+										<input class="form-information__input" name="form[]" id="zip-Code"
+											placeholder="Zip Code" required type="number">
+									</div>
+								</div>
+								<div class="form-information__contacts contacts">
+									<div class="contacts__wrapper">
+										<label class="form-information__label" for="email">Email</label>
+										<input class="form-information__input" name="form[]" id="email"
+											placeholder="Email Address" type="email">
+									</div>
+									<div class="contacts__wrapper">
+										<label class="form-information__label" for="phone">Phone</label>
+										<input class="form-information__input" name="form[]" id="phone"
+											placeholder="Phone number" type="tel">
+									</div>
+								</div>
+								<div class="form-information__checkbox checkbox">
+									<div class="checkbox__wrapper">
+										<input class="checkbox__input" type="checkbox" id="checkbox"
+											name="form[]">
+										<label class="checkbox__label" for="checkbox">Ship to a different
+											address</label>
+									</div>
+								</div>
+								<h2 class="form-information__title">Additional Info</h2>
+								<div class="form-information__notes">
+									<label class="form-information__label" for="notes">Order Notes
+										(Optional)</label>
+									<textarea
+										placeholder="Notes about your order, e.g. special notes for delivery"
+										class="form-information__textarea" name="notes"
+										id="notes"></textarea>
+								</div>
+							</div>
+						</div>
+						<div class="order">
+							<div class="order__card card">
+								<div class="card__body">
+									<div class="card__product">
+										<div class="card__items">
+											<a href="#" class="card__item item-card">
+												<div class="item-card__image">
+													<img src="img/1.webp" alt="Green Capsicum">
+												</div>
+												<div class="item-card__text">Green Capsicum</div>
+												<div class="item-card__quantity">x5</div>
+											</a>
+											<div class="card__price-item">$70.00</div>
+										</div>
+										<div class="card__items">
+											<a href="#" class="card__item item-card">
+												<div class="item-card__image">
+													<img src="img/2.webp" alt="Red Capsicum">
+												</div>
+												<div class="item-card__text">Red Capsicum</div>
+												<div class="item-card__quantity">x1</div>
+											</a>
+											<div class="card__price-item">$14.00</div>
+										</div>
+									</div>
+									<div class="card__subtotal subtotal">
+										<div class="subtotal__text">Subtotal:</div>
+										<div class="subtotal__price">$84.00</div>
+									</div>
+									<div class="card__shipping shipping">
+										<div class="shipping__text">Shipping:</div>
+										<div class="shipping__price">Free</div>
+									</div>
+									<div class="card__total total">
+										<div class="total__text">Total:</div>
+										<div class="total__price">$84.00</div>
+									</div>
+								</div>
+								<div class="card__pay-method">
+									<div class="card__title">Payment Method</div>
+									<!-- не розумію чтому, але без обгортки не працюе inline-flex -->
+									<div class="card__wrapper-radio">
+										<label class="card__radio">
+											<input class="card__item-radio" type="radio" value="Cash"
+												name="form[method-pay]">
+											<span class="card__label-radio">Cash on Delivery</span>
+										</label>
+									</div>
+									<div class="card__wrapper-radio">
+										<label class="card__radio">
+											<input class="card__item-radio" type="radio" value="Paypal"
+												name="form[method-pay]">
+											<span class="card__label-radio">Paypal</span>
+										</label>
+									</div>
+									<div class="card__wrapper-radio">
+										<label class="card__radio">
+											<input class="card__item-radio" type="radio" value="Amazon"
+												name="form[method-pay]">
+											<span class="card__label-radio">Amazon Pay</span>
+										</label>
+									</div>
+								</div>
+								<div class="card__button button">
+									<button class="button__item" type="submit">Place Order</button>
+								</div>
+							</div>
+						</div>
+					</form>
+				</div>
+			</main>
+			<footer class="footer">
+				<div class="footer__container">
+					footer
+				</div>
+			</footer>
+		</div>
+	</body>
+</html>
