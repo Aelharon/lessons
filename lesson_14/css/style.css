@@ -338,11 +338,15 @@
 	opacity: 0;
 	width: 0;
 	height: 0;
-	margin-left: -6px;
 }
 
-.card__item-radio:checked+.card__label-radio::after {
+.card__item-radio:checked+.card__label-radio::before {
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
 	background-color: #00B207;
+	outline: 2px solid #00B207;
+	outline-offset: 4px;
 }
 
 .card__label-radio {
@@ -351,8 +355,8 @@
 	font-size: 14px;
 	display: flex;
 	align-items: center;
-	gap: 6px;
-	position: relative;
+	gap: 10px;
+	/* position: relative; */
 }
 
 .card__label-radio::before {
@@ -360,18 +364,9 @@
 	width: 20px;
 	height: 20px;
 	border-radius: 50%;
-	outline: 1px solid #CCCCCC;
+	outline: 1.5px solid #CCCCCC;
 	transition-duration: 0.3s;
-}
-
-.card__label-radio::after {
-	content: "";
-	width: 13px;
-	height: 13px;
-	border-radius: 50%;
-	position: absolute;
-	top: 3.3px;
-	left: 3.5px;
+	align-items: center;
 }
 
 .button__item {
