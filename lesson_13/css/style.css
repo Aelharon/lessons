@@ -50,6 +50,8 @@ body {
 .section-meet__row {}
 
 .section-meet__title {
+	display: flex;
+	flex-direction: column;
 	font-family: "Inter", sans-serif;
 	font-size: 38px;
 	font-weight: 400;
@@ -117,15 +119,12 @@ body {
 	font-size: 15px;
 	font-weight: 400;
 	line-height: 1.26;
-}
-
-.card__item-link {
 	transition-duration: 0.3s;
 }
 
-.card__item-link:hover {
+.card__link:hover {
 	text-decoration: underline;
-	transform: scale(1.4);
+	transform: scale(1.4) translate(40px, 0px);
 }
 
 /* ! section-faculty */
@@ -152,6 +151,8 @@ body {
 }
 
 .section-faculty__title {
+	display: flex;
+	flex-direction: column;
 	color: #412672;
 	font-family: "Inter", sans-serif;
 	font-size: 34px;
@@ -221,9 +222,9 @@ body {
 }
 
 .section-academy__container {
-	display: flex;
+	/* display: flex;
 	flex-direction: column;
-	gap: 30px;
+	gap: 30px; */
 }
 
 .section-academy__title {
@@ -232,6 +233,7 @@ body {
 	font-family: "Inter", sans-serif;
 	font-size: 24px;
 	line-height: 1.2;
+	margin-bottom: 30px;
 }
 
 .section-academy__row {
