@@ -101,9 +101,11 @@
 
 @media (max-width: 479.98px) {
 	.title-section__h2 {
-		font-size: 18px;
+		font-size: 20px;
 	}
-
+.title-section__link{
+	font-size: 20px;
+}
 	.featured {
 		padding: 5px 0;
 	}
