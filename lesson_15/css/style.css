@@ -250,7 +250,7 @@
 		color: #2C742F;
 	}
 
-	#bag:hover {
+	.card>.info>.bag:hover {
 		background-color: #2C742F;
 	}
 }
@@ -552,7 +552,11 @@
 	}
 
 	.card-blog__link {
-		font-size: 20px;
+		font-size: 18px;
+	}
+
+	.card-blog__content {
+		color: #2C742F;
 	}
 }
 
@@ -569,6 +573,11 @@
 	.date__month {
 		font-size: 10px;
 		font-weight: 500;
+	}
+
+	.categories-card__link img {
+		width: 15px;
+		height: 15px;
 	}
 }
 
