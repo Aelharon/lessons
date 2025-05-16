@@ -16,6 +16,25 @@
 			</header>
 			<main class="page">
 				<div class="page__container">
+					<!-- <div class="page__practice practice">
+						<form class="practice__form" method="get"
+							enctype="multipart/form-data"
+							action="#"
+							class="practice__radio">
+							<label class="practice__lable-radio">
+								<input class="practice__innput-radio" name="form[1]" type="radio">
+								<span class="practice__text-radio">Select</span>
+							</label>
+							<label class="practice__lable-radio">
+								<input class="practice__innput-radio" name="form[1]" type="radio">
+								<span class="practice__text-radio">Select</span>
+							</label>
+							<label class="practice__lable-radio">
+								<input class="practice__innput-radio" name="form[1]" type="radio">
+								<span class="practice__text-radio">Select</span>
+							</label>
+						</form>
+					</div> -->
 					<form class="section-data" action="#">
 						<div class="information">
 							<div class="information__form form-information">
@@ -125,8 +144,12 @@
 													<img src="img/1.webp" alt="Green Capsicum">
 												</div>
 												<div class="item-card__text">Green Capsicum</div>
-												<div class="item-card__quantity">x5</div>
 											</a>
+											<div class="card__quantity quntity">
+												<div class="quntity__item">x</div>
+												<input class="input-quantity" name="form[]" value="5"
+													type="number">
+											</div>
 											<div class="card__price-item">$70.00</div>
 										</div>
 										<div class="card__items">
@@ -135,8 +158,12 @@
 													<img src="img/2.webp" alt="Red Capsicum">
 												</div>
 												<div class="item-card__text">Red Capsicum</div>
-												<div class="item-card__quantity">x1</div>
 											</a>
+											<div class="card__quantity quntity">
+												<div class="quntity__item">x</div>
+												<input class="input-quantity" name="form[]" value="1"
+													type="number">
+											</div>
 											<div class="card__price-item">$14.00</div>
 										</div>
 									</div>
@@ -158,7 +185,7 @@
 									<!-- не розумію чтому, але без обгортки не працюе inline-flex -->
 									<div class="card__wrapper-radio">
 										<label class="card__radio">
-											<input class="card__item-radio" type="radio" value="Cash"
+											<input checked class="card__item-radio" type="radio" value="Cash"
 												name="form[method-pay]">
 											<span class="card__label-radio">Cash on Delivery</span>
 										</label>

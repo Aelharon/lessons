@@ -30,6 +30,59 @@
 	flex-grow: 1;
 }
 
+/* ! practice */
+
+/* .practice {
+	padding: 50px 0;
+}
+
+.practice__form {
+	display: inline-flex;
+	flex-direction: column;
+	gap: 15px;
+}
+
+.practice__radio {}
+
+.practice__lable-radio {}
+
+.practice__innput-radio {
+	opacity: 0;
+	width: 0;
+	height: 0;
+}
+
+.practice__innput-radio:checked+.practice__text-radio::before {
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	background-color: #00B207;
+	outline: 3px solid #00B207;
+	outline-offset: 4px;
+}
+
+.practice__innput-radio:focus-visible+.practice__text-radio {
+	outline: 1px solid #333;
+	outline-offset: 5px;
+}
+
+.practice__text-radio {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+
+.practice__text-radio::before {
+	content: "";
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	outline: 1.5px solid #CCCCCC;
+}
+ */
+
+
+/*! .section-data */
 .section-data {
 	background-color: #fff;
 	padding: 30px 0;
@@ -205,12 +258,17 @@
 	flex-direction: column;
 }
 
-.card__product {}
+.card__product {
+	display: flex;
+	flex-direction: column;
+	gap: 6px;
+}
 
 .card__items {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
+	gap: 6px;
 }
 
 .card__item {}
@@ -223,6 +281,11 @@
 	font-family: "Poppins", sans-serif;
 	font-size: 14px;
 	line-height: 1.2;
+	transition-duration: 0.4s;
+}
+
+.item-card:hover {
+	transform: scale(1.1);
 }
 
 .item-card__image {
@@ -235,7 +298,28 @@
 	width: 100%;
 }
 
-.item-card__quantity {}
+.quntity {
+	display: flex;
+	gap: 6px;
+	align-items: center;
+}
+
+.quntity__item {
+	color: #1A1A1A;
+	font-family: "Poppins", sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 1.2;
+}
+
+.input-quantity {
+	width: 50px;
+	color: #1A1A1A;
+	font-family: "Poppins", sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 1.2;
+}
 
 .card__price-item {
 	color: #1A1A1A;
@@ -341,13 +425,20 @@
 }
 
 .card__item-radio:checked+.card__label-radio::before {
-	width: 20px;
-	height: 20px;
+	width: 15px;
+	height: 15px;
 	border-radius: 50%;
 	background-color: #00B207;
 	outline: 2px solid #00B207;
 	outline-offset: 4px;
 }
+
+.card__item-radio:focus-visible+.card__label-radio {
+	outline: 2px solid #00B207;
+	outline-offset: 10px;
+	border-radius: 5px;
+}
+
 
 .card__label-radio {
 	color: #4D4D4D;
@@ -361,8 +452,8 @@
 
 .card__label-radio::before {
 	content: "";
-	width: 20px;
-	height: 20px;
+	width: 15px;
+	height: 15px;
 	border-radius: 50%;
 	outline: 1.5px solid #CCCCCC;
 	transition-duration: 0.3s;
