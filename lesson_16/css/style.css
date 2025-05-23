@@ -275,9 +275,10 @@ body {}
 		right: -100%;
 		top: 0;
 		z-index: 3;
-		background-color: #FFF;
+		background-color: #dad0d0;
 		padding: 80px 15px 30px 15px;
 		transition: all 0.3s;
+		opacity: 0.9;
 	}
 
 	.menu__body::before {
@@ -290,6 +291,10 @@ body {}
 		height: 70px;
 		transition: all 0.3s;
 		background: #FBE3D1;
+	}
+
+	body.menu-open {
+		overflow: hidden;
 	}
 
 	.menu-open .menu__body,
