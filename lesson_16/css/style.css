@@ -63,6 +63,7 @@ body {}
 .logo-header__image {
 	opacity: 0.7;
 	transition: opacity 0.3s;
+	max-width: 44px;
 	aspect-ratio: 44 / 44;
 	position: relative;
 	z-index: 5;
@@ -89,6 +90,8 @@ body {}
 .menu__list {
 	display: flex;
 	column-gap: 30px;
+	row-gap: 20px;
+	flex-wrap: wrap;
 }
 
 .menu__item {}
