@@ -105,7 +105,7 @@ body {
 
 .products__cards {
 	display: grid;
-	grid-template-columns: repeat(auto-fill, minmax(min(248px, 100%), 1fr));
+	grid-template-columns: repeat(auto-fill, minmax(min(208px, 100%), 1fr));
 	gap: 20px;
 	padding: 15px 0px;
 }
@@ -116,9 +116,11 @@ body {
 	border: 1px solid #E6E6E6;
 	background: #FFF;
 	position: relative;
+	/* aspect-ratio: 248 / 348.8; */
 }
 
 .bannar__image {
+	background-color: #F6F4F2;
 	object-fit: cover;
 	width: 100%;
 	height: 100%;
@@ -135,8 +137,6 @@ body {
 	flex-direction: column;
 	position: relative;
 	z-index: 2;
-	/* top: 8.6%;
-	left: 0; */
 	padding: 32px 20px 20px 20px;
 }
 
@@ -239,7 +239,7 @@ body {
 }
 
 .card__image {
-	aspect-ratio: 254 / 230;
+	aspect-ratio: 246 / 246;
 	padding: 5px;
 }
 
@@ -311,7 +311,7 @@ body {
 	height: 20px;
 	position: relative;
 	top: 10px;
-	left: 10px;
+	left: 0px;
 	transition-duration: 0.4s;
 }
 
@@ -320,7 +320,7 @@ body {
 	height: 20px;
 	position: relative;
 	top: -10px;
-	left: 10px;
+	left: 0px;
 	opacity: 0;
 	visibility: hidden;
 	transition-duration: 0.4s;
@@ -391,8 +391,8 @@ body {
 		height: 25px;
 		visibility: visible;
 		opacity: 1;
-		top: -11.5px;
-		left: 9.5px;
+		top: -13px;
+		left: 0px;
 	}
 
 	.card .bag__black-bag {
@@ -549,6 +549,9 @@ body {
 	.card-ad .activ-ad {
 		opacity: 1;
 		visibility: visible;
+		position: relative;
+		top: 0%;
+		left: 0%;
 	}
 }
 
@@ -614,11 +617,11 @@ body {
 
 @media(any-hover:none) {
 
-	.card-ad__price,
+	/* .card-ad__price,
 	.card-ad__rating {
 		opacity: 0;
 		visibility: hidden;
-	}
+	} */
 }
 
 .content-bannar__sale strong {
@@ -644,8 +647,9 @@ body {
 @media (max-width: 1350.98px) {
 	.ad__bannar--grid-line {
 		grid-row: 1;
+		/* grid-column: 1 / -1; */
 		grid-column-start: 1;
-		grid-column-end: 4;
+		grid-column-end: 5;
 	}
 
 	.ad {
@@ -692,7 +696,7 @@ body {
 	display: grid;
 	grid-template-columns: 400px 370px 370px;
 	gap: 30px;
-	padding-bottom: 10px;
+	padding-bottom: 20px;
 }
 
 .blossomia__title {
@@ -739,6 +743,7 @@ body {
 .blossomia__image {
 	aspect-ratio: 370 / 378;
 	flex-grow: 1;
+	background-color: #303338;
 }
 
 .blossomia__image img {
@@ -815,8 +820,9 @@ body {
 
 .blossomia__link-more {
 	display: flex;
-	width: 184px;
-	height: 41px;
+	width: fit-content;
+	/* height: 41px; */
+	padding: 10px 15px 10px 10px;
 	justify-content: center;
 	align-items: center;
 	gap: 10px;
@@ -831,6 +837,7 @@ body {
 	transition: outline-color 0.3s;
 	position: relative;
 	top: -200px;
+	left: 20px;
 }
 
 .blossomia__link-more::after {
